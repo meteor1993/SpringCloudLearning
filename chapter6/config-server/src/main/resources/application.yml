@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/meteor1993/SpringCloudLearning # git仓库的地址
+          search-paths: chapter6/springcloud-config  # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: inwsy@hotmail.com
+          password: wsy136736247.
