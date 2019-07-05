@@ -11,6 +11,19 @@ spring:
           search-paths: chapter6/springcloud-config
           username: inwsy@hotmail.com
           password: wsy136736247.
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 101.132.124.125
+    port: 5672
+    username: admin
+    password: wsy@123456
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 eureka:
   client:
     service-url:
