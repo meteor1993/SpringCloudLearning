@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/meteor1993/SpringCloudLearning
+          search-paths: chapter6/springcloud-config
+          username: inwsy@hotmail.com
+          password: wsy136736247.
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
