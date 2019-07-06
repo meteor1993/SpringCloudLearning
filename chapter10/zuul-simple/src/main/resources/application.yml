@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-zuul
+zuul:
+  FormBodyWrapperFilter:
+    pre:
+      disable: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
