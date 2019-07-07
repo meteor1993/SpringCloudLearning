@@ -4,10 +4,10 @@ spring:
   application:
     name: spring-cloud-producer
   rabbitmq:
-    host: 101.132.124.125
+    host: host
     port: 5672
-    username: admin
-    password: wsy@123456
+    username: username
+    password: password
   sleuth:
     sampler:
       probability: 1.0
