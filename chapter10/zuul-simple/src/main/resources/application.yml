@@ -7,7 +7,6 @@ zuul:
   FormBodyWrapperFilter:
     pre:
       disable: true
-  retryable: true
 eureka:
   client:
     service-url:
