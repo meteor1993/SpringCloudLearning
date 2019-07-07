@@ -7,7 +7,11 @@ zuul:
   FormBodyWrapperFilter:
     pre:
       disable: true
+  retryable: true
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+ribbon:
+  eager-load:
+    clients:

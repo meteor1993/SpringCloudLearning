@@ -7,6 +7,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.client.ClientHttpResponse;
+import org.springframework.stereotype.Component;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -21,6 +22,7 @@ import java.io.InputStream;
  * @email: inwsy@hotmail.com
  * Description:
  */
+@Component
 public class ProducerFallback implements FallbackProvider {
 
     private final Logger logger = LoggerFactory.getLogger(FallbackProvider.class);

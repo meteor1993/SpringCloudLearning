@@ -4,8 +4,8 @@ spring:
   application:
     name: eureka-serve
 eureka:
-  server:
-    enable-self-preservation: false
+#  server:
+#    enable-self-preservation: false
   client:
     register-with-eureka: false
     service-url:
