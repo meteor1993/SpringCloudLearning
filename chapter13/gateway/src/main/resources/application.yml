@@ -1,0 +1,25 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: add_request_parameter_route
+          #格式为：lb://应用注册服务名
+          uri: lb://spring-cloud-producer
+          filters:
+            - AddRequestParameter=foo, bar
+          predicates:
+            - Method=GET
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
