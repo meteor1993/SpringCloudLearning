@@ -1,0 +1,43 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-gateway
+  redis:
+    host: localhost
+    password: password
+    port: 6379
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: requestratelimiter_route
+          uri: http://example.org
+          filters:
+            - name: RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 10
+                redis-rate-limiter.burstCapacity: 20
+                key-resolver: "#{@userKeyResolver}"
+          predicates:
+            - Method=GET
+        - id: hystrix_route
+          uri: lb://backing-service:8088
+          predicates:
+            - Path=/consumingserviceendpoint
+          filters:
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/incaseoffailureusethis
+        - id: retry_test
+          uri: lb://spring-cloud-producer
+          predicates:
+            - Path=/retry
+          filters:
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY
