@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-cloud-nacos-producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.132.124.125:8848
