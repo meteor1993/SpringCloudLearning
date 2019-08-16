@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/meteor1993/SpringCloudLearning # git²Ö¿âµÄµØÖ·
-          search-paths: chapter6/springcloud-config  # git²Ö¿âµØÖ·ÏÂµÄÏà¶ÔµØÖ·£¬¿ÉÒÔÅäÖÃ¶à¸ö£¬ÓÃ,·Ö¸î¡£
-          username: inwsy@hotmail.com
-          password: wsy136736247.
+          uri: https://github.com/meteor1993/SpringCloudLearning # gitä»“åº“çš„åœ°å€
+          search-paths: chapter6/springcloud-config  # gitä»“åº“åœ°å€ä¸‹çš„ç›¸å¯¹åœ°å€ï¼Œå¯ä»¥é…ç½®å¤šä¸ªï¼Œç”¨,åˆ†å‰²ã€‚
+          username: 
+          password: 
