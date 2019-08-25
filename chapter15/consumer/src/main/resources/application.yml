@@ -1,0 +1,11 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: spring-cloud-consumer-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
+  instance:
+    prefer-ip-address: true
