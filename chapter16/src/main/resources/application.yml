@@ -1,0 +1,5 @@
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: zuul-config-apollo
+  Meta: http://localhost:8080
