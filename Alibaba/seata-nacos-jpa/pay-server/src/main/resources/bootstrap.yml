@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-cloud-pay-server
+  cloud:
+    nacos:
+      # nacos config
+      config:
+        server-addr: 192.168.0.128
+        namespace: public
+        group: SEATA_GROUP
+      # nacos discovery
+      discovery:
+        server-addr: 192.168.0.128
+        namespace: public
+        enabled: true
+    alibaba:
+      seata:
+        tx-service-group: ${spring.application.name}
