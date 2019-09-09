@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: web-flux
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.44.129:8080
+        port: 8720
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-methods: '*'

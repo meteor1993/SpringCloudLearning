@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: web-mvc
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 192.168.44.129:8080
+        port: 8719
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-methods: '*'
