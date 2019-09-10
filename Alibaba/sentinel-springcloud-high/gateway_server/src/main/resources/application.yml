@@ -1,0 +1,23 @@
+server:
+  port: 28080
+spring:
+  application:
+    name: spring-cloud-gateway-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.44.129:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8720
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          lower-case-service-id: true
+      routes:
+        - id: consumer_server
+          uri: lb://spring-cloud-consumer-fallback
+          predicates:
+            - Method=GET

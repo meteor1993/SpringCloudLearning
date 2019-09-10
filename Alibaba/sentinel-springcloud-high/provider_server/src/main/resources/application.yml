@@ -1,0 +1,18 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: spring-cloud-provider-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.44.129:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8720
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-methods: '*'

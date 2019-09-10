@@ -1,0 +1,21 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-cloud-consumer-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.44.129:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-methods: '*'
+feign:
+  sentinel:
+    enabled: true
