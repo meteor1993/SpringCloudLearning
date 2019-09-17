@@ -17,9 +17,7 @@
     <img src="https://cdn.geekdigging.com/wechat_qrcode_344.jpg">
 </center>
 
-# [《Spring Cloud 系列文章》](https://www.geekdigging.com/categories/SpringCloud)
-
-## Greenwich版
+# [Spring Cloud 系列文章](https://www.geekdigging.com/categories/SpringCloud)
 
 * [跟我学SpringCloud | 第一篇：介绍](https://www.geekdigging.com/2019/08/31/597155743/)
 
@@ -55,7 +53,7 @@
 
 * [跟我学SpringCloud | 第十七篇：服务网关Zuul基于Apollo动态路由](https://www.geekdigging.com/2019/09/06/350913727/)
 
-# [《Spring Cloud Alibaba 系列文章》](https://www.geekdigging.com/categories/SpringCloudAlibaba/)
+# [Spring Cloud Alibaba 系列文章](https://www.geekdigging.com/categories/SpringCloudAlibaba/)
 
 * [Spring Cloud Alibaba | 序言](https://www.geekdigging.com/2019/08/31/2574447504/)
 
@@ -85,7 +83,7 @@
 
 * [Spring Cloud Alibaba | Dubbo 与 Spring Cloud 完美结合](https://www.geekdigging.com/2019/09/17/3112135178/)
 
-# [《Spring Boot 系列文章》](https://www.geekdigging.com/categories/SpringBoot/)
+# [Spring Boot 系列文章](https://www.geekdigging.com/categories/SpringBoot/)
 
 有关 Spring Boot 系列文章新开了一个代码仓库，欢迎大家点赞收藏~~~
 
