@@ -1,0 +1,19 @@
+server:
+  port: 9090
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://139.155.11.128
+  cloud:
+    subscribed-services: dubbo-spring-cloud-provider-web
+spring:
+  application:
+    name: dubbo-spring-cloud-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.155.11.128:8848
+  main:
+    allow-bean-definition-overriding: true

@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-consumer-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.155.11.128:8848

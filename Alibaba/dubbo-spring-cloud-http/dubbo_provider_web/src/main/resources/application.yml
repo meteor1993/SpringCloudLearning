@@ -1,0 +1,19 @@
+server:
+  port: 8000
+dubbo:
+  scan:
+    base-packages: com.springcloud.book.ch14_2_dubbo_provider_web.service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://139.155.11.128
+spring:
+  application:
+    name: dubbo-spring-cloud-provider-web
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.155.11.128:8848
+  main:
+    allow-bean-definition-overriding: true
