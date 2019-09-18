@@ -83,6 +83,8 @@
 
 * [Spring Cloud Alibaba | Dubbo 与 Spring Cloud 完美结合](https://www.geekdigging.com/2019/09/17/3112135178/)
 
+* [Spring Cloud Alibaba | Dubbo Spring Cloud 之 HTTP 实战](https://www.geekdigging.com/2019/09/18/3524430571/)
+
 # [Spring Boot 系列文章](https://www.geekdigging.com/categories/SpringBoot/)
 
 有关 Spring Boot 系列文章新开了一个代码仓库，欢迎大家点赞收藏~~~
