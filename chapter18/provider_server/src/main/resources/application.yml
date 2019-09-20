@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-provider-server
+  cloud:
+    inetutils:
+      use-only-site-local-interfaces: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_SERVER1_HOST}:${EUREKA_SERVER1_PORT}/eureka/, http://${EUREKA_SERVER2_HOST}:${EUREKA_SERVER2_PORT}/eureka/
+  instance:
+    prefer-ip-address: true

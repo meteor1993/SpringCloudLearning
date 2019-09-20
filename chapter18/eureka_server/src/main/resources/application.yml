@@ -1,0 +1,25 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-cloud-eureka-server
+  cloud:
+    inetutils:
+      use-only-site-local-interfaces: true
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 60000
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://${EUREKA_SERVER_HOST}:${EUREKA_SERVER_PORT}/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
