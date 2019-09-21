@@ -18,6 +18,7 @@
     <modules>
         <module>eureka_server</module>
         <module>provider_server</module>
+        <module>gateway_server</module>
     </modules>
 
     <properties>
