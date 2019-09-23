@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>consumer-server</artifactId>
+    <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>consumer-server</name>
-    <description>consumer-server</description>
+    <name>eureka-server</name>
+    <description>eureka-server</description>
     <packaging>jar</packaging>
 
     <properties>
@@ -23,15 +23,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-okhttp</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
