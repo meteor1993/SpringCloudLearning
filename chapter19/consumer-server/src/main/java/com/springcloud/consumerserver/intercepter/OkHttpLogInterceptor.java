@@ -3,7 +3,6 @@ package com.springcloud.consumerserver.intercepter;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.Interceptor;
 import okhttp3.Response;
-import org.springframework.web.servlet.HandlerInterceptor;
 
 import java.io.IOException;
 
