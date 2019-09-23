@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: consumer-server
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
