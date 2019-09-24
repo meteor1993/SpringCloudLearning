@@ -53,6 +53,12 @@
 
 * [跟我学SpringCloud | 第十七篇：服务网关Zuul基于Apollo动态路由](https://www.geekdigging.com/2019/09/06/350913727/)
 
+* [跟我学SpringCloud | 第十八篇：微服务 Docker 化之基础环境](https://www.geekdigging.com/2019/09/20/2549997705/)
+
+* [跟我学SpringCloud | 第十九章：Spring Cloud 组件 Docker 化](https://www.geekdigging.com/2019/09/21/3650141413/)
+
+* [跟我学SpringCloud | 第二十篇：Spring Cloud 之 okhttp](https://www.geekdigging.com/2019/09/23/3025517456/)
+
 # [Spring Cloud Alibaba 系列文章](https://www.geekdigging.com/categories/SpringCloudAlibaba/)
 
 * [Spring Cloud Alibaba | 序言](https://www.geekdigging.com/2019/08/31/2574447504/)
