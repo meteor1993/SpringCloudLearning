@@ -95,4 +95,24 @@
 
 有关 Spring Boot 系列文章新开了一个代码仓库，欢迎大家点赞收藏~~~
 
-[spring-boot-examples](https://github.com/meteor1993/spring-boot-examples)
+[Github代码仓库：spring-boot-examples](https://github.com/meteor1993/spring-boot-examples)
+
+[Gitee代码仓库：spring-boot-examples](https://gitee.com/inwsy/spring-boot-examples)
+
+文章列表：
+
+* [Spring Boot （一）：快速开始](https://www.geekdigging.com/2019/09/11/2531363117/)
+
+* [Spring Boot （二）：模版引擎 Thymeleaf 渲染 Web 页面](https://www.geekdigging.com/2019/09/16/2755709569/)
+
+* [Spring Boot （三）： ORM 框架 JPA 与连接池 Hikari](https://www.geekdigging.com/2019/09/19/2405775053/)
+
+* [Spring Boot （四）： Druid 连接池密码加密与监控](https://www.geekdigging.com/2019/09/22/1068168916/)
+
+* [Spring Boot （五）： Redis缓存使用姿势盘点](https://www.geekdigging.com/2019/09/24/2171701522/)
+
+* [Spring Boot （六）： 为 JPA 插上翅膀的 QueryDSL](https://www.geekdigging.com/2019/09/26/1814805575/)
+
+* [Spring Boot （七）： Mybatis极简配置](https://www.geekdigging.com/2019/09/28/3684964092/)
+
+* 其余文章笔者努力更新中，欢迎大家持续关注：）
