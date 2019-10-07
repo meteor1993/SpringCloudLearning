@@ -115,4 +115,14 @@
 
 * [Spring Boot （七）： Mybatis极简配置](https://www.geekdigging.com/2019/09/28/3684964092/)
 
+* [Spring Boot （八）： Mybatis 增强工具 MyBatis-Plus](https://www.geekdigging.com/2019/09/29/2160851131/)
+
+* [Spring Boot （九）： 微服务应用监控 Spring Boot Actuator 详解](https://www.geekdigging.com/2019/09/30/3362349187/)
+
+* [Spring Boot （十）： Spring Boot Admin 监控 Spring Boot 应用](https://www.geekdigging.com/2019/10/01/3649490045/)
+
+* [Spring Boot （十一）： Spring Boot 定时任务](https://www.geekdigging.com/2019/10/06/3308794317/)
+
+* [Spring Boot （十二）： Spring Boot 邮件服务](https://www.geekdigging.com/2019/10/07/3113346683/)
+
 * 其余文章笔者努力更新中，欢迎大家持续关注：）
