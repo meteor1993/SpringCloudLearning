@@ -125,4 +125,10 @@
 
 * [Spring Boot （十二）： Spring Boot 邮件服务](https://www.geekdigging.com/2019/10/07/3113346683/)
 
+* [Spring Boot （十三）： Spring Boot 整合 RabbitMQ](http://www.geekdigging.com/2019/10/08/3448388748/)
+
+* [Spring Boot （十四）： 响应式编程以及 Spring Boot Webflux 快速入门](http://www.geekdigging.com/2019/10/09/2115479772/)
+
+* [Spring Boot （十五）： 优雅的使用 API 文档工具 Swagger2](http://www.geekdigging.com/2019/10/10/2115479772/)
+
 * 其余文章笔者努力更新中，欢迎大家持续关注：）
