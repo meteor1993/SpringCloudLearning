@@ -2,7 +2,7 @@ server:
   port: 8000
 dubbo:
   scan:
-    base-packages: com.springcloud.book.ch13_1_dubbo_provider.service
+    base-packages: com.springcloud.dubbo_provider.service
   protocol:
     name: dubbo
     port: -1
