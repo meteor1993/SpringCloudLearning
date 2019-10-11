@@ -17,6 +17,12 @@
     <img src="https://cdn.geekdigging.com/wechat_qrcode_344.jpg">
 </center>
 
+* [Github代码仓库](https://github.com/meteor1993/SpringCloudLearning)
+
+* [Gitee代码仓库](https://gitee.com/inwsy/SpringCloudLearning)
+
+如果 Github 访问过慢，欢迎访问 Gitee
+
 # [Spring Cloud 系列文章](https://www.geekdigging.com/categories/SpringCloud)
 
 * [跟我学SpringCloud | 第一篇：介绍](https://www.geekdigging.com/2019/08/31/597155743/)
